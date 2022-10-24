@@ -1,0 +1,46 @@
+/* footer background #2F303A */
+/* text colors accents #2196F3 
+#FFFFFF, main #000000, secondary #757575 */
+:root {
+	--primary-text-color: #212121;
+}
+
+body {
+	background-color: #ffffff;
+	color: #212121;
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+/*                   HEADER                  */
+.header-link {
+	color: #212121;
+}
+
+.header-link:hover,
+.header-link:focus {
+	color: #2196f3;
+}
+
+.contact-link {
+	color: #757575;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+	color: #2196f3;
+}
+
+/*                   MAIN                  */
+/*                   FOOTER                  */
+
+.footer {
+	background-color: #2f303a;
+	color: #ffffff;
+}
